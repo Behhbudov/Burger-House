@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:wght@400;700&display=swap');
+html { scroll-behavior: smooth; }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(134, 94, 94, 0.25);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: linear-gradient(transparent, #3d2514);
+}
+header {
+    background: url('../img/headerbg.png') center/cover;
+    height: 100vh;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px 0 40px;
+}
+nav ul { text-align: right; }
+nav ul li { display: inline-block; }
+nav ul:first-child li:last-child {
+    font: 700 1em 'Montserrat', sans-serif;
+    color: #3d2514;
+    padding: 0 0 0 15px;
+}
+nav ul:last-child li {
+    font: 700 1.2em 'Montserrat', sans-serif;
+    padding: 25px 0 0 40px;
+}
+nav ul:last-child  a { color: #3d2514; }
+nav ul:last-child li:first-child { padding-left: 0!important; }
+#div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 0 50px;
+}
+#div1 img { width: 100%; }
+#div2 h5 {
+    font: 700 .8em 'Montserrat', sans-serif;
+    color: #3d2514;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 2px dashed #3d2514;
+    border-radius: 5px;
+}
+#div2 h1 {
+    font: 400 4.5em 'Alfa Slab One', cursive;
+    color: #3d2514;
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+#div2 h2 {
+    font: 400 2.5em 'Alfa Slab One', cursive;
+    color: #3d2514;
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+}
+#div3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+#div3 img {
+    width: 100%;
+    padding: 10px;
+}
+#div3 h5 {
+    font: 700 1em 'Montserrat', sans-serifs;
+    color: #fff;
+    text-transform: uppercase;
+}
+#div3 h3 {
+    font: 700 1.7em 'Montserrat', sans-serifs;
+    color: #fff;
+    text-transform: uppercase;
+}
+.div4 { position: relative; }
+.div5 {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+}
+#div6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#div7 { text-align: center; }
+#div7 h4 {
+    margin: 30px 0 10px 0;
+    text-align: center;
+}
+#div7 h4 span {
+    font: 700 1.3em 'Montserrat', sans-serifs;
+    background: #ffc045;
+    color: #3d2514;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+#div7 h2 {
+    font: 700 3em 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#div7 p {
+    font: .9em 'Montserrat', sans-serifs;
+    color: #3d2514;
+}
+#div7 section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 70px 0 0 0;
+}
+#div7 section img { width: 90%; }
+#div7 section h3 {
+    font: 700 1.8em 'Montserrat', sans-serifs;
+    color: #3d2514;
+    text-transform: uppercase;
+    padding: 40px 0 10px 0;
+}
+#div7 section button {
+    font: 700 1em 'Montserrat', sans-serifs;
+    background: #bf2222;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    margin: 20px 0 50px 0;
+    border: none;
+}
+#slider {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    height: 70vh;
+    padding: 25px 25px 25px 50px;
+    margin: 10vh auto;
+    box-shadow: 7px 7px 30px #ccc;
+}
+#slider h5 {
+    font: 700 1.5em 'Montserrat', sans-serifs;
+    color: #3d3d3d;
+    text-transform: uppercase;
+    padding: 25px 0 0 0;
+}
+#slider h2 {
+    font: 700 2.6em 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+#slider p {
+    font: 400 1.1em 'Montserrat', sans-serifs;
+    color: #3d3d3d;
+    padding: 30px 0 0 0;
+}
+#slider #div8 { padding: 110px 0 0 0; }
+#slider #div9 {
+    position: absolute;
+    top: 25px;
+    right: -90px;
+}
+#div10 {
+    background: url('../img/contactbg.jpg') center/cover;
+    height: 100vh;
+    text-align: center;
+}
+#div10 input {
+    width: 40%;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding-left: 10px;
+}
+#div10 #people { margin-left: -5px!important; }
+#div10 input:last-child {
+    width: 41%;
+    font: 1em 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    background: #bf2222;
+    color: #fff;
+    margin-right: 0!important;
+    border: none;
+    border-radius: 5px;
+}
+#div10 h5 {
+    font: 700 1.6em 'Montserrat', sans-serifs;
+    color: #3d2514;
+    padding: 60px 0 10px 0;
+    text-transform: uppercase;
+}
+#div10 h1 {
+    font: 3em 'Alfa Slab One', cursive;
+    color: #3d2514;
+    text-transform: uppercase;
+}
+#div10 div {
+    width: 60%;
+    margin: 60px auto;
+}
+#div11 {
+    background: url('../img/footerbg.png') center/cover;
+    color: #fff;
+    padding: 60px 30px 30px 50px;
+    margin: 55px 65px;
+}
+#div12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0 140px 0;
+}
+#div12 p {
+    font: 400 .9em 'Montserrat', sans-serifs;
+    line-height: 1.5em;
+}
+#div12 i {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 2em;
+}
+#div13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#div13 div:first-child { font: 400 .9em 'Montserrat', sans-serifs; }
+#div13 a {
+    font-size: 1.5em;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 100%;
+}
+#divi i {
+    position: fixed;
+    right: 2%;
+    bottom: 4%;
+    font-size: 2.5em;
+    color: #3d2514;
+}
+@media only screen and (max-width: 768px) {
+    header { height: 100%; }
+    nav {
+        flex-direction: column;
+        padding: 25px 0 0 25px;
+    }
+    nav #logo { text-align: center; }
+    nav ul { text-align: center; }
+    nav ul li {
+        display: block;
+        padding: 0!important;
+    }
+    nav ul:first-child li:last-child { font-size: .9em; }
+    nav ul:last-child li { padding: 10px 0 0 0!important; }
+    #div1 {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 0;
+    }
+    #div2 h5 {
+        font-size: 1em;
+        margin: 0 10px 10px 10px;
+    }
+    #div2 h1  {font-size: 3em; }
+    #div2 h2 { font-size: 2em; }
+    #div1 img { width: 90% }
+    #div3 { flex-direction: column; align-items: center; }
+    #div3 h5 { font-size: .7em; }
+    #div3 h3 { font-size: 1em; }
+    #div3 img { padding: 10px; }
+    .div5 {
+        top: 25px;
+        left: 15px;
+    }
+    #div7 h4 span { font-size: 1em; }
+    #div7 h2 { font-size: 2em; }
+    #div7 p { font-size: 1em; }
+    #div7 section { flex-direction: column; }
+    #div7 section h3 { font-size: 1.5em; }
+    #slider {
+        position: inherit;
+        flex-direction: column;
+        width: 95%;
+        height: 100vh;
+        padding: 25px;
+        text-align: center;
+    }
+    #slider h5 { font-size: 1em; }
+    #slider h2 { font-size: 1.5em; }
+    #slider p { font-size: .9em; }
+    #slider #div8 { padding: 50px 0 0 0; }
+    #slider #div9 {
+        position: inherit;
+        top: inherit;
+        right: inherit;
+    }
+    #div10 input {
+        width: 90%;
+        margin: 0 0 15px 0;
+        padding-left: 10px;
+    }
+    #div10 input:last-child { width: 95%; }
+    #div10 h5 {
+        font-size: 1em;
+        padding-top: 30px;
+    }
+    #div10 h1 { font-size: 1.5em; }
+    #div10 div {
+        width: 100%;
+        margin: 60px auto;
+    }
+    #div11 {
+        padding: 30px 15px 15px 25px;
+        margin: 20px 30px;
+    }
+    #div11 img { width: 100%; }
+    #div12 {
+        flex-direction: column;
+        padding: 25px 0 50px 0;
+        text-align: center;
+    }
+    #div12 p { font-size: .8em; }
+    #div12 i {
+        font-size: .8em;
+        padding-top: 10px;
+    }
+    #div13 { flex-direction: column; text-align: center; }
+    #div13 div:first-child {
+        font-size: .8em;
+        padding-bottom: 15px;
+    }
+    #div13 a {
+        font-size: 1em;
+        padding-top: 7px;
+    }
+}
