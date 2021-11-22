@@ -248,7 +248,9 @@ nav ul:last-child li:first-child { padding-left: 0!important; }
     color: #3d2514;
 }
 @media only screen and (max-width: 768px) {
-    header { height: 100%; }
+    header {
+        height: 100%;
+    }
     nav {
         flex-direction: column;
         padding: 25px 0 0 25px;
