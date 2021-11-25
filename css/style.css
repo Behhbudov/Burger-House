@@ -63,8 +63,8 @@ nav ul:last-child li:first-child { padding-left: 0!important; }
     flex-direction: row;
     justify-content: space-evenly;
     padding: 50px 0;
+    overflow: hidden;
 }
-#div3 div { overflow: hidden; }
 #div3 img {
     width: 100%;
     padding: 10px;
