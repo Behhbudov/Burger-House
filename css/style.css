@@ -19,8 +19,7 @@ nav {
     justify-content: space-between;
     padding: 40px 40px 0 40px;
 }
-nav ul { 
-    text-align: right; }
+nav ul { text-align: right; }
 nav ul li { display: inline-block; }
 nav ul:first-child li:last-child {
     font: 700 1em 'Montserrat', sans-serif;
